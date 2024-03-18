@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+    <!-- fim google fontes -->
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio da Bia</title>
+</head>
+<body>
+  
+    <header>
+        <div class="interface">
+            <div class="logo">
+        <a href="#">
+            <img src="/imagem/Bia.png" alt="Logo da Bia" width="150">
+        </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Especialidades</a></li>
+                </ul>
+             </nav>
+             <div class="btn-contato">
+                <a href="#">
+                    <button>contato</button>
+                </a>
+             </div>
+        </div><!--interface-->
+    </header>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+/* estilo do cabeçalho */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .fuzzy-bubbles-regular {
+        font-family: "Fuzzy Bubbles", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .fuzzy-bubbles-bold {
+        font-family: "Fuzzy Bubbles", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+}
+
+body{
+    background-color: rgb(212, 185, 236);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+    
+/* estilo do cabeçalho */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+<header a{
+    color: #fff ;
+}
